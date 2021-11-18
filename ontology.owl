@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#"
+     xml:base="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology">
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#atuou -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#atuou">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#éAtuadoPor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Ator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Personagem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#atuouPersonagemEm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#atuouPersonagemEm">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#temPersonagemAtuadoPor"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Ator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#compostoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#compostoPor">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#participouEm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#participouEm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#participouEm">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Personagem"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#produzidoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#produzidoPor">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#produziu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#produziu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#produziu">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Diretor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#temPersonagemAtuadoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#temPersonagemAtuadoPor">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#éAtuadoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#éAtuadoPor">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#anoDeLançamento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#anoDeLançamento">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/age"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#duração -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#duração">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#título -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#título">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Ator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Ator">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Diretor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Diretor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Personagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Personagem">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
