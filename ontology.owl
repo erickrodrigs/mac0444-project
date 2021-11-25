@@ -31,7 +31,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#atuou">
         <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#éAtuadoPor"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#ehAtuadoPor"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Ator"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Personagem"/>
     </owl:ObjectProperty>
@@ -54,6 +54,14 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#compostoPor">
         <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#participouEm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#ehAtuadoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#ehAtuadoPor">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
     </owl:ObjectProperty>
     
 
@@ -95,14 +103,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#éAtuadoPor -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#éAtuadoPor">
-        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -114,9 +114,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#anoDeLançamento -->
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#anoDeLancamento -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#anoDeLançamento">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#anoDeLancamento">
         <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/age"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -124,9 +124,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#duração -->
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#duracao -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#duração">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#duracao">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -134,9 +134,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#título -->
+    <!-- http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#titulo -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#título">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#titulo">
         <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/name"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
