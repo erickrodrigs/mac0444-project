@@ -119,7 +119,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#anoDeLancamento">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -129,7 +129,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#duracao">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -10135,8 +10135,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_a_good_woman">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Good Woman</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_a_good_woman</rdfs:label>
     </owl:NamedIndividual>
@@ -10147,8 +10147,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_a_love_song_for_bobby_long">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">119</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Love Song for Bobby Long</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_a_love_song_for_bobby_long</rdfs:label>
     </owl:NamedIndividual>
@@ -10159,8 +10159,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_american_beauty">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">122</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Beauty</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_american_beauty</rdfs:label>
     </owl:NamedIndividual>
@@ -10171,8 +10171,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_an_american_rhapsody">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">106</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An American Rhapsody</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_an_american_rhapsody</rdfs:label>
     </owl:NamedIndividual>
@@ -10183,8 +10183,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_anna">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1987</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anna</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_anna</rdfs:label>
     </owl:NamedIndividual>
@@ -10195,8 +10195,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_barton_fink">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barton Fink</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_barton_fink</rdfs:label>
     </owl:NamedIndividual>
@@ -10207,8 +10207,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_blade_runner">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1982</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">117</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1982</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blade Runner</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_blade_runner</rdfs:label>
     </owl:NamedIndividual>
@@ -10219,8 +10219,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_blood_simple">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blood Simple</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_blood_simple</rdfs:label>
     </owl:NamedIndividual>
@@ -10231,8 +10231,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_cq">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CQ</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_cq</rdfs:label>
     </owl:NamedIndividual>
@@ -10243,8 +10243,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_crash">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">112</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crash</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_crash</rdfs:label>
     </owl:NamedIndividual>
@@ -10255,8 +10255,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_crimewave">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1985</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crimewave</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_crimewave</rdfs:label>
     </owl:NamedIndividual>
@@ -10267,8 +10267,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_down_from_the_mountain">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Down from the Mountain</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_down_from_the_mountain</rdfs:label>
     </owl:NamedIndividual>
@@ -10279,8 +10279,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_eight_legged_freaks">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2002</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eight Legged Freaks</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_eight_legged_freaks</rdfs:label>
     </owl:NamedIndividual>
@@ -10291,8 +10291,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_fall">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fall</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_fall</rdfs:label>
     </owl:NamedIndividual>
@@ -10303,8 +10303,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_fargo">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fargo</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_fargo</rdfs:label>
     </owl:NamedIndividual>
@@ -10315,8 +10315,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_frankenweenie">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frankenweenie</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_frankenweenie</rdfs:label>
     </owl:NamedIndividual>
@@ -10327,8 +10327,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_ghost_world">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">111</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghost World</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_ghost_world</rdfs:label>
     </owl:NamedIndividual>
@@ -10339,8 +10339,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_ghostbusters">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">105</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghostbusters</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_ghostbusters</rdfs:label>
     </owl:NamedIndividual>
@@ -10351,8 +10351,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_girl_with_a_pearl_earring">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girl with a Pearl Earring</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_girl_with_a_pearl_earring</rdfs:label>
     </owl:NamedIndividual>
@@ -10363,8 +10363,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_groundhog_day">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">101</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Groundhog Day</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_groundhog_day</rdfs:label>
     </owl:NamedIndividual>
@@ -10375,8 +10375,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_hearts_of_darkness_a_filmmaker_s_apocalypse">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1991</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">96</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hearts of Darkness: A Filmmaker&apos;s Apocalypse</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_hearts_of_darkness_a_filmmaker_s_apocalypse</rdfs:label>
     </owl:NamedIndividual>
@@ -10387,8 +10387,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_her">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">126</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Her</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_her</rdfs:label>
     </owl:NamedIndividual>
@@ -10399,8 +10399,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_home_alone_3">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1997</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">102</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Alone 3</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_home_alone_3</rdfs:label>
     </owl:NamedIndividual>
@@ -10411,8 +10411,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_if_lucy_fell">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If Lucy Fell</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_if_lucy_fell</rdfs:label>
     </owl:NamedIndividual>
@@ -10423,8 +10423,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_in_good_company">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">109</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In Good Company</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_in_good_company</rdfs:label>
     </owl:NamedIndividual>
@@ -10435,8 +10435,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_inside_monkey_zetterland">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1992</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inside Monkey Zetterland</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_inside_monkey_zetterland</rdfs:label>
     </owl:NamedIndividual>
@@ -10447,8 +10447,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_interstellar">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">169</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstellar</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_interstellar</rdfs:label>
     </owl:NamedIndividual>
@@ -10459,8 +10459,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_intolerable_cruelty">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intolerable Cruelty</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_intolerable_cruelty</rdfs:label>
     </owl:NamedIndividual>
@@ -10471,8 +10471,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_just_cause">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1995</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">102</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Just Cause</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_just_cause</rdfs:label>
     </owl:NamedIndividual>
@@ -10483,8 +10483,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_lick_the_star">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lick the Star</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_lick_the_star</rdfs:label>
     </owl:NamedIndividual>
@@ -10495,8 +10495,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_lost_in_translation">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2003</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">102</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lost in Translation</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_lost_in_translation</rdfs:label>
     </owl:NamedIndividual>
@@ -10507,8 +10507,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_manny__lo">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">88</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manny &amp; Lo</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_manny__lo</rdfs:label>
     </owl:NamedIndividual>
@@ -10519,8 +10519,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_marie_antoinette">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marie Antoinette</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_marie_antoinette</rdfs:label>
     </owl:NamedIndividual>
@@ -10531,8 +10531,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_match_point">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">124</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Match Point</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_match_point</rdfs:label>
     </owl:NamedIndividual>
@@ -10543,8 +10543,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_miller_s_crossing">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1990</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">115</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller&apos;s Crossing</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_miller_s_crossing</rdfs:label>
     </owl:NamedIndividual>
@@ -10555,8 +10555,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_mission_impossible">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1996</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">110</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mission: Impossible</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_mission_impossible</rdfs:label>
     </owl:NamedIndividual>
@@ -10567,8 +10567,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_my_brother_the_pig">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">92</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My Brother the Pig</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_my_brother_the_pig</rdfs:label>
     </owl:NamedIndividual>
@@ -10579,8 +10579,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_no_country_for_old_men">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">122</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No Country for Old Men</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_no_country_for_old_men</rdfs:label>
     </owl:NamedIndividual>
@@ -10591,8 +10591,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_north">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">87</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_north</rdfs:label>
     </owl:NamedIndividual>
@@ -10603,8 +10603,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_o_brother_where_art_thou">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">107</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O Brother, Where Art Thou?</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_o_brother_where_art_thou</rdfs:label>
     </owl:NamedIndividual>
@@ -10615,8 +10615,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_paris_je_t_aime">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris, je t&apos;aime</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_paris_je_t_aime</rdfs:label>
     </owl:NamedIndividual>
@@ -10627,8 +10627,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_peggy_sue_got_married">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1986</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">103</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peggy Sue Got Married</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_peggy_sue_got_married</rdfs:label>
     </owl:NamedIndividual>
@@ -10639,8 +10639,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_pride__prejudice">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pride &amp; Prejudice</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_pride__prejudice</rdfs:label>
     </owl:NamedIndividual>
@@ -10651,8 +10651,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_raising_arizona">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1987</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raising Arizona</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_raising_arizona</rdfs:label>
     </owl:NamedIndividual>
@@ -10663,8 +10663,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_rumble_fish">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rumble Fish</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_rumble_fish</rdfs:label>
     </owl:NamedIndividual>
@@ -10675,8 +10675,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_scoop">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">96</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scoop</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_scoop</rdfs:label>
     </owl:NamedIndividual>
@@ -10687,8 +10687,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_spanglish">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">131</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spanglish</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_spanglish</rdfs:label>
     </owl:NamedIndividual>
@@ -10699,8 +10699,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_spies_like_us">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1985</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">102</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spies Like Us</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_spies_like_us</rdfs:label>
     </owl:NamedIndividual>
@@ -10711,8 +10711,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_star_wars_episode_i__the_phantom_menace">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star Wars: Episode I - The Phantom Menace</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_star_wars_episode_i__the_phantom_menace</rdfs:label>
     </owl:NamedIndividual>
@@ -10723,8 +10723,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_big_lebowski">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">117</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Big Lebowski</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_big_lebowski</rdfs:label>
     </owl:NamedIndividual>
@@ -10735,8 +10735,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_black_dahlia">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">121</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Black Dahlia</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_black_dahlia</rdfs:label>
     </owl:NamedIndividual>
@@ -10747,8 +10747,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_cotton_club">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1984</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cotton Club</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_cotton_club</rdfs:label>
     </owl:NamedIndividual>
@@ -10759,8 +10759,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_da_vinci_code">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">149</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Da Vinci Code</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_da_vinci_code</rdfs:label>
     </owl:NamedIndividual>
@@ -10771,8 +10771,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_firm">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1993</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">154</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Firm</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_firm</rdfs:label>
     </owl:NamedIndividual>
@@ -10783,8 +10783,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_godfather">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1972</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">175</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1972</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Godfather</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_godfather</rdfs:label>
     </owl:NamedIndividual>
@@ -10795,8 +10795,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_godfather_part_ii">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1974</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">202</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Godfather: Part II</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_godfather_part_ii</rdfs:label>
     </owl:NamedIndividual>
@@ -10807,8 +10807,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_godfather_part_iii">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1990</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">162</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Godfather: Part III</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_godfather_part_iii</rdfs:label>
     </owl:NamedIndividual>
@@ -10819,8 +10819,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_great_debaters">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2007</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">126</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Great Debaters</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_great_debaters</rdfs:label>
     </owl:NamedIndividual>
@@ -10831,8 +10831,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_horse_whisperer">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1998</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">169</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Horse Whisperer</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_horse_whisperer</rdfs:label>
     </owl:NamedIndividual>
@@ -10843,8 +10843,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_hudsucker_proxy">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1994</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">111</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hudsucker Proxy</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_hudsucker_proxy</rdfs:label>
     </owl:NamedIndividual>
@@ -10855,8 +10855,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_imitation_game">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">114</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Imitation Game</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_imitation_game</rdfs:label>
     </owl:NamedIndividual>
@@ -10867,8 +10867,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_island">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Island</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_island</rdfs:label>
     </owl:NamedIndividual>
@@ -10879,8 +10879,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_ladykillers">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ladykillers</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_ladykillers</rdfs:label>
     </owl:NamedIndividual>
@@ -10891,8 +10891,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_man_who_wasn_t_there">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2001</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">116</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Man Who Wasn&apos;t There</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_man_who_wasn_t_there</rdfs:label>
     </owl:NamedIndividual>
@@ -10903,8 +10903,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_outsiders">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Outsiders</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_outsiders</rdfs:label>
     </owl:NamedIndividual>
@@ -10915,8 +10915,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_oxford_murders">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Oxford Murders</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_oxford_murders</rdfs:label>
     </owl:NamedIndividual>
@@ -10927,8 +10927,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_perfect_score">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Perfect Score</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_perfect_score</rdfs:label>
     </owl:NamedIndividual>
@@ -10939,8 +10939,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_spongebob_squarepants_movie">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2004</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">87</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The SpongeBob SquarePants Movie</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_spongebob_squarepants_movie</rdfs:label>
     </owl:NamedIndividual>
@@ -10951,8 +10951,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_theory_of_everything">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Theory of Everything</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_theory_of_everything</rdfs:label>
     </owl:NamedIndividual>
@@ -10963,8 +10963,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_usual_suspects">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1995</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">106</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Usual Suspects</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_usual_suspects</rdfs:label>
     </owl:NamedIndividual>
@@ -10975,8 +10975,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_the_virgin_suicides">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">97</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Virgin Suicides</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_the_virgin_suicides</rdfs:label>
     </owl:NamedIndividual>
@@ -10987,8 +10987,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#filme_torrance_rises">
         <rdf:type rdf:resource="http://www.semanticweb.org/guerrero/ontologies/2021/10/project-ontology#Filme"/>
-        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1999</anoDeLancamento>
-        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34</duracao>
+        <anoDeLancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</anoDeLancamento>
+        <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</duracao>
         <titulo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Torrance Rises</titulo>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filme_torrance_rises</rdfs:label>
     </owl:NamedIndividual>
