@@ -77,11 +77,65 @@ WHERE {
 ORDER BY ?filme
 
 # 8. Qual o diretor que mais dirigiu filmes em que aparece o ator de primeiro nome Xp e último nome Xu ?
-SELECT ?diretor (COUNT(?filme) AS ?filmes)
+SELECT  ?diretor
 WHERE {
-      ?diretor :produziu ?filme.
-      ?filme :temPersonagemAtuadoPor ?ator.
-      ?ator foaf:firstName "Billy";
-            foaf:familyName "Thornton"
+      {
+      SELECT ?diretor (COUNT(?filme_) as ?count)
+      WHERE {
+            ?diretor :produziu ?filme_.
+            ?filme_ :temPersonagemAtuadoPor ?ator_.
+            ?ator_ foaf:firstName "Billy";
+                  foaf:familyName "Thornton".
+            }
+      GROUP BY ?diretor
       }
-GROUP BY ?diretor
+      .
+      { 
+      SELECT (MAX(?filmes) AS ?max)
+            WHERE
+            { 
+            SELECT  ?diretor (COUNT(?filme) AS ?filmes)
+            WHERE {
+                  ?diretor :produziu ?filme.
+                  ?filme :temPersonagemAtuadoPor ?ator.
+                  ?ator foaf:firstName "Billy";
+                        foaf:familyName "Thornton"
+                  }
+            GROUP BY ?diretor
+            }
+      }
+      FILTER(?count = ?max)
+      }
+LIMIT 1
+
+# 9. Qual o filme mais antigo em que o ator X atuou, em que ano foi lançado e qual era seu personagem? Havendo empate, devolver todos do mesmo ano.
+SELECT  ?filme ?ano ?personagem
+WHERE {
+      ?filme :compostoPor ?personagem;
+             :anoDeLancamento ?ano.
+      :billy_bob_thornton :atuou ?personagem.
+      {
+      SELECT (MIN(?ano) as ?min)
+      WHERE {
+            ?filme :compostoPor ?personagem;
+                   :anoDeLancamento ?ano.
+            :billy_bob_thornton :atuou ?personagem.
+            }
+      }
+      FILTER(?ano = ?min)
+      }
+
+# 10. Qual o filme mais longo dirigido por D, e qual a sua duração? Havendo empate, devolver todos da mesma duração.
+SELECT  ?filme ?duracao
+WHERE {
+      ?filme :produzidoPor :francis_ford_coppola;
+                  :duracao ?duracao.
+      {
+      SELECT (MAX(?duracao) as ?max)
+      WHERE {
+                  ?filme :produzidoPor :francis_ford_coppola;
+                        :duracao ?duracao.
+            }
+      }
+      FILTER(?duracao = ?max)
+      }
