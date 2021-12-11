@@ -68,9 +68,9 @@ SELECT ?diretor ?filme ?ano
 WHERE {
       ?diretor :produziu ?filme.
       ?filme :anoDeLancamento ?ano;
-             :temPersonagemAtuadoPor :harrison_ford;
-             :temPersonagemAtuadoPor :morgan_paull
-      FILTER(?ano >= 1980 && ?ano <= 1990)
+             :temPersonagemAtuadoPor :al_pacino;
+             :temPersonagemAtuadoPor :diane_keaton
+      FILTER(?ano >= 1970 && ?ano <= 1990)
       }
 ORDER BY ?ano
 
@@ -80,10 +80,11 @@ WHERE {
       ?filme :duracao ?duracao;
              :temPersonagemAtuadoPor ?atriz;
              :temPersonagemAtuadoPor ?ator.
+      ?atriz foaf:gender "Feminino".
       ?ator foaf:gender "Masculino"
-      FILTER(?duracao >= 90 && ?duracao <= 100)
+      FILTER(?duracao >= 10 && ?duracao <= 30)
       }
-ORDER BY ?filme
+ORDER BY ?duracao
 
 # 8. Qual o diretor que mais dirigiu filmes em que aparece o ator de primeiro nome Xp e último nome Xu ?
 SELECT  ?diretor
