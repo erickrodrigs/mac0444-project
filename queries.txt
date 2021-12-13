@@ -33,7 +33,7 @@ WHERE {
              :temPersonagemAtuadoPor :sofia_coppola;
              :temPersonagemAtuadoPor :gian_carlo_coppola.
       }
-ORDER BY ?ano
+ORDER BY DESC(?ano)
 
 # 4. Quais filmes do diretor do filme F possuem X ou Y como atores, com as respectivas durações em ordem crescente?
 SELECT ?filme ?duracao
@@ -46,7 +46,7 @@ WHERE {
         }
         UNION
         {
-          ?diretor :produziu :filme_anna;
+          ?diretor :produziu :filme_the_godfather;
                    :produziu ?filme.
           ?filme :duracao ?duracao;
                  :temPersonagemAtuadoPor :gian_carlo_coppola.
